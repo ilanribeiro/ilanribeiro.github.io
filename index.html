@@ -7,19 +7,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Web de Ilan Ribeiro</title>
 
+  <style>
+    
+    .top-head {
+      background-color: rgb(130, 148, 206);
+      display:flex;
+    }
+
+    .logo {
+      font-size: 6em;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+      display:inline-block;
+      float: left;
+    }
+
+    .nav-links {
+      font-size: 20px;
+      float: right;
+      padding: 30px 0;
+      align-items:baseline
+      }
+
+    h2 {
+      color: rgb(79,79,79);
+    }
+
+    p {
+      color: rgb(79,79,79);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .profile-photo {
+      border-radius: 50%;
+    }
+
+  </style>
 </head>
 
 <body>
   
-  <h1 id="inicio">Portfólio Web</h1>
-  <h4>Seções:
+  <header id="inicio" class="top-head">
+    <h1 Class="logo">Ilan</h1>
+    <div class="nav-links">
       <a href="#sobre-mim">Informações sobre mim</a>
       <a href="#habilidades-pessoais">Habilidades desenvolvidas</a>
-      <a href="#conteudos-que-indico">Algumas referências</a> 
-  </h4>
+      <a href="#conteudos-que-indico">Algumas referências</a>
+    </div>  
+  </header>
+  
   <p>Me chamo Ilan Ribeiro.</p>
   <p>E esse aqui embaixo sou eu:</p>
-  <img id="fotoilan" src="images/ilan-perfil.png" alt="foto de ilan ribeiro" width="200px">
+  <img id="fotoilan" class="profile-photo" src="images/ilan-perfil.png" alt="foto de ilan ribeiro" width="200px">
 
 <hr>
 <br>
