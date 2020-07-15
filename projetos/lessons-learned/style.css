@@ -89,16 +89,16 @@ a {
 }
 
 .github {
-  background-image: url('/images/github-34px.png');
+  background-image: url('images/github-34px.png');
   background-repeat: no-repeat;
 }
 
 .linkedin {
-  background-image: url('/images/linkedin-32px.png');
+  background-image: url('images/linkedin-32px.png');
   background-repeat: no-repeat;
 }
 
 .twitter {
-  background-image: url('/images/twitter-32px.png');
+  background-image: url('images/twitter-32px.png');
   background-repeat: no-repeat;
 }
