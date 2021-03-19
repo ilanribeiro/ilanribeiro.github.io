@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Travel Video Landing Page</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <a href="#" class="logo">
+        <h2>Viajar<span>.</span></h2>
+      </a>
+      <div class="toggle" onclick="toggleMenu()"></div>
+    </header>
+
+    <video muted loop autoplay>
+      <source src="/public/video.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="text">
+      <h2>Nunca pare</h2>
+      <h3>de explorar o mundo</h3>
+      <p>Viajar é um verbo que devemos conjugar pelo menos uma vez por ano. É uma jornada para dentro de si. Então vá, pelo menos uma vez por ano a um lugar que você nunca foi antes. Afinal, faz bem se perder na direção certa!</p>
+      <button href="#">Explore</button>
+    </div>
+
+    <ul class="social">
+      <li><a href="#"><img src="/public/facebook.png" alt="social logo"></a></li>
+      <li><a href="#"><img src="/public/twitter.png" alt="social logo"></a></li>
+      <li><a href="#"><img src="/public/instagram.png" alt="social logo"></a></li>
+    </ul>
+  </section>
+
+  <section class="menu">
+    <ul>
+      <li><a href="#" onclick="toggleMenu()">Home</a></li>
+      <li><a href="#" onclick="toggleMenu()">News</a></li>
+      <li><a href="#" onclick="toggleMenu()">Destination</a></li>
+      <li><a href="#" onclick="toggleMenu()">Blog</a></li>
+      <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+  </section>
+  
+
+  <script src="scripts.js"></script>
+</body>
+</html>
