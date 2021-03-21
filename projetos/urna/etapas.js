@@ -75,6 +75,16 @@ let etapas = [
           {url: '16_2.jpg', legenda: 'Vice-Prefeito', small: true},
         ]
       },
+      {
+        numero: '01',
+        nome: 'Benja Pepé',
+        partido: 'Partido Engatinhando',
+        vice: 'Tokyo',
+        fotos: [
+          {url: '01.jpg', legenda: 'Prefeito'},
+          {url: '01_2.jpg', legenda: 'Vice-Prefeita', small: true},
+        ]
+      },
     ]
   },
 ];
