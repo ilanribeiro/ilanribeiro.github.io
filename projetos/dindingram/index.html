@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/media.css">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <title>DindinGram</title>
+</head>
+<body>
+  <div class="instaWrapper">
+    <div class="phone">
+      <span class="screen">
+        <img src="img/screen1.jpg" alt="screen_phone" class="img">
+        <img src="img/screen2.jpg" alt="screen_phone" class="img">
+        <img src="img/screen3.jpg" alt="screen_phone" class="img">
+        <img src="img/screen4.jpg" alt="screen_phone" class="img">
+        <img src="img/screen5.jpg" alt="screen_phone" class="img">
+      </span>
+    </div>
+    
+    <div class="loginContainer">
+      <form action="">
+        <img src="img/instagram_Logo.png" alt="instagram_logo" class="instaLogo">
+
+        <div class="inputBody">
+          <p class="userLabel">Phone number, username, or email</p>
+          <input type="text" class="inputField userInput" onkeyup="userField(event)" oninput="loginActive()">
+        </div>
+
+        <div class="inputBody">
+          <p class="passLabel">Password</p>
+          <span class="showHide">Show</span>
+          <input type="password" class="inputField passInput" onkeyup="passField(event)" oninput="loginActive()">
+        </div>
+
+        <button type="submit" class="loginBtn" onclick="handleClick(event)" disabled>Log in</button>
+
+        <p class="alternative">or</p>
+
+        <a href="" class="facebookLogin">
+          <img src="img/facebook.png" alt="">
+          Log in with Facebook
+        </a>
+
+        <a href="" class="forgot">Forgot password?</a>
+
+        <a href=""></a>
+
+      </form>
+
+      <div class="signup">
+        <p>Don't have an account? <a href="">Sign up</a></p>
+      </div>
+
+      <div class="getApp">Get the app.</div>
+
+      <div class="appLinks">
+        <span class="appStore">
+          <img src="img/appStore.png" alt="">
+        </span>
+
+        <span class="googlePlay">
+          <img src="img/googlePlay.png" alt="">
+        </span>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
