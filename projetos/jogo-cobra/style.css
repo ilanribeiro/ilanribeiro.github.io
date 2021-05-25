@@ -1,0 +1,48 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #9400D3	;
+}
+
+.main {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main header h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  box-shadow: 5px 5px 5px black;
+}
+
+.restart-button {
+  display: none;
+  border: none;
+  border-radius: 5%;
+  padding: 20px;
+  margin-bottom: 1rem;
+}
+
+.restart-button.active {
+  display: block;
+  border: none;
+  border-radius: 5%;
+  padding: 20px;
+  margin-bottom: 1rem;
+}
